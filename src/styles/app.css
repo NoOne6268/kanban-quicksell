@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'SF Pro';
+  src: url("../assets/SFPro/SF-Pro-Display-Regular.otf") format('truetype'),
+       url("../assets/SFPro/SF-Pro-Display-Bold.otf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro';
+  src: url("../assets/SFPro/SF-Pro-Display-Bold.otf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #F3F6FA;
+}

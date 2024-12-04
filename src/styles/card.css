@@ -1,0 +1,86 @@
+.card {
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-id {
+  font-size: 14px;
+  color: #888;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.card-title {
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 16px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.badge {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  border: 1px solid #6B6D6E;
+  font-size: 14px;
+  color: #6B6D6E;
+  padding: 4px 8px;
+  margin: 2px;
+  border-radius: 4px;
+}
+
+.relative {
+  position: relative;
+  display: inline-block;
+}
+
+.status-indicator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 9999px;
+  border: 2px solid white;
+}
+
+.status-available {
+  background-color: #22c55e;
+}
+
+.status-unavailable {
+  background-color: #6b7280;
+}
+
+.status-img {
+  margin-right: 5px;
+}
+
+.status-img-title {
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
+}

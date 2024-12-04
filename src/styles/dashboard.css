@@ -1,0 +1,10 @@
+.dashboard {
+    padding: 10px auto;
+}
+
+.kanban-board {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
